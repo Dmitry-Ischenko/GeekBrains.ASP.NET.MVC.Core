@@ -11,5 +11,9 @@
         <TextBlock Text="0" FontSize="40" Margin="4" HorizontalAlignment="Center"/>
         <TextBlock Text="Время до след числа" HorizontalAlignment="Center"/>
         <TextBlock Text="0" FontSize="40" Margin="4" HorizontalAlignment="Center" Foreground="Red"/>
+        <StackPanel Orientation="Horizontal">
+            <Button Content="Старт/стоп" Margin="4"/>
+            <Button Content="Сброс" Margin="4"/>
+        </StackPanel>
     </StackPanel>
 </Window>
