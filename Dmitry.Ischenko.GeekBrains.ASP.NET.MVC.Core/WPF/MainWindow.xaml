@@ -6,7 +6,10 @@
         xmlns:local="clr-namespace:WPF"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+    <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <TextBlock Text="Числа фибоначчи:" HorizontalAlignment="Center"/>
+        <TextBlock Text="0" FontSize="40" Margin="4" HorizontalAlignment="Center"/>
+        <TextBlock Text="Время до след числа" HorizontalAlignment="Center"/>
+        <TextBlock Text="0" FontSize="40" Margin="4" HorizontalAlignment="Center" Foreground="Red"/>
+    </StackPanel>
 </Window>
